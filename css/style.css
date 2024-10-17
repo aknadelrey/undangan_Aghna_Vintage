@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+h5{
+  margin-right: 25px;
+  margin-left:25px
+}
+  
+  .box-full {
+    width: 100%;
+    height: 100vh;
+    display: block;
+  }
+  #section-1 {
+    background: url(../image/vintage.jpeg);
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: none;
+    padding-top: 50px;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  #foto {
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid rgb(155, 103, 43);
+  }
+  
+  #button:hover {
+    background-color: brown;
+    color: #F2F597;
+    box-shadow: inset 100px 0 0 0 brown;
+  }
+  
+  #button {
+    border-style: solid;
+    border-radius: 4vh;
+    background: transparent;
+    color: white;
+    margin-top: 2vh;
+    padding: 1vh 4vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    transition: ease-out 0.4s;
+    box-shadow: inset 0 0 0 0 brown;
+  }
+  
+  #button:active {
+    transform: scale(0.9);
+  }
+  
+  .kata1 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(140, 130, 72);
+  }
+  
+  .kata2 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+  }
+  
+  #section-2 {
+    background-image: url(../image/vintage2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+  }
+  
+  #section-3 {
+    background-image: url(../image/vintage3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  
+  #profile {
+    display: inline;
+  }
+  #profile-2 {
+    display: inline;
+  }
+  
+  #section-4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: x-large;
+    background-color: #B99470;
+  }
+  
+  #section-5{
+    padding-top: 25px;
+    background-color:#B99470 ;
+  }
+
+  #table {
+    height: 100vh;
+  ;
+  }
+  
+  table tr td {
+    border:2px solid rgb(0, 0, 0);
+  }
+  
+  table {
+    width: 100%;
+  }
+.tumbal{
+  visibility: hidden;
+}
+
+#section-8{
+  padding-top: 80px;
+  background-color: #B99470;
+  height: 140vh;
+}
+#story{
+    margin: 50px;
+    padding-top: 28px;
+    width: 80%;
+    height: 100vh;
+    display: block;
+    background-color: rgba(225, 221, 221, 0.518);
+    border-radius: 50px 50px 0px 0px;
+}
+#section-7{
+  padding-right: 50px;
+  margin-right: 50px;
+}
+
+#section-9{
+  padding-top: 80px;
+  background-color: #B99470;
+  height: 140vh;
+}
+
+#kotak-form{
+  width: 100%;
+  background-color: #B99470;
+  border: 2px solid black;
+}
+#bg{
+  margin: 50px;
+    padding-top: 28px;
+    width: 80%;
+    height: 75vh;
+    display: block;
+    background-color: rgba(225, 221, 221, 0.518);
+    border-radius: 50px ;
+}
+
+  .slide{
+    padding-top: 25px;
+  }
+  .kotak {
+    width: 80%;
+    height: 80vh;
+    display: block;
+  }
+  .bg-white {
+    background-color: white;
+  }
+  
+  .bg-primary {
+    background-color: #893168;
+  }
+  .bg-secondary {
+    background-color: #4a1942;
+  }
+  .bg-third {
+    background-color: #2e1c2b;
+  }
+  .bg-dark {
+    background-color: #050404;
+  }
+  .bg-light {
+    background-color: #eaeaea;
+  }
+  .c-txt-primary {
+    color: #fff;
+  }
+  .c-text-secondary {
+    color: #050404;
+  }
+  #nav {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 2vh;
+  }
+  
+  #nav ul {
+    list-style: none;
+    margin: 10px;
+    background: maroon;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  
+  #nav ul li {
+    display: inline-block;
+    margin: 0%;
+    background: maroon;
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  #nav ul li:hover {
+    background: rgb(87, 2, 2);
+    border-radius: 50px;
+    color: #000;
+  }
